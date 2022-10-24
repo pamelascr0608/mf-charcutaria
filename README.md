@@ -8,11 +8,10 @@
 <br> 
 
 # MF Charcutaria
-trabalho criação
 
 Dia 24/10
 Projeto de extensão dos alunos do quarto período de gestão de TI do IF Sudeste de Minas Gerais com o Objetivo de informatizar um negócio da região.
-Alunos: Alan Balbino, João Vítor Resende, Luiz GUilherme e Pâmela Resende.
+Alunos: Alan Balbino, João Víctor Resende, Luiz GUilherme e Pâmela Resende.
 
 #### Ferramentas:
 - HTML;
