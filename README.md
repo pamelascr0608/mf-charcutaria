@@ -10,6 +10,10 @@
 # MF Charcutaria
 
 Dia 24/10
+- Início da criação do HTML e CSS do site;
+- Criação de pastas para inserção de imagens no site
+
+
 Projeto de extensão dos alunos do quarto período de gestão de TI do IF Sudeste de Minas Gerais com o Objetivo de informatizar um negócio da região.
 Alunos: Alan Balbino, João Víctor Resende, Luiz GUilherme e Pâmela Resende.
 
