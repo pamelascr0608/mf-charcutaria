@@ -1,12 +1,29 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
 .menu {
     background-color: #F3D09C !important;
     color: #802D3D;
 }
 
+footer{
+    background-color: #F3D09C !important;
+}
+
 li {
     color: #802D3D !important;
 }
-a li {
+.red-text{
+    color: #802D3D !important;
+}
+
+a {
+    text-decoration: none !important ;
+}
+
+i {
     color: #802D3D !important;
 }
 
