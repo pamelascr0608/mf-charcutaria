@@ -1,0 +1,20 @@
+.menu {
+    background-color: #F3D09C !important;
+    color: #802D3D;
+}
+
+li {
+    color: #802D3D !important;
+}
+a li {
+    color: #802D3D !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #802D3D !important;
+}
+
+hr {
+    height: 30%;
+    color: #802D3D;
+}
