@@ -2,6 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
     height: 100vh;
+    overflow-x: hidden;
 }
 .menu {
     background-color: #F3D09C !important;
@@ -38,4 +39,31 @@ i {
 hr {
     height: 30%;
     color: #802D3D;
+}
+
+input {
+    border-radius: 20px !important;
+}
+
+.background-beige {
+    background-color:#FAF3D799 !important;
+}
+
+.background-red {
+    background-color:#802D3D !important;
+}
+
+
+.contact-button {
+    background-color: #802D3D;
+    border-radius: 20px !important;
+    color:white;
+    font-weight: bold;
+    width: 20%;
+    border:none; 
+    align-self: center;
+}
+
+.text-about-us {
+    color:white
 }
