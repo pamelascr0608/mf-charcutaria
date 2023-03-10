@@ -24,6 +24,12 @@ li {
     color: #802D3D !important;
 }
 
+.text-about-us-phrase {
+    font-family: 'Dancing Script', cursive;
+    font-size:4rem;
+    color: #fff;
+}
+
 a {
     text-decoration: none !important ;
 }
@@ -65,5 +71,15 @@ input {
 }
 
 .text-about-us {
-    color:white
+    color:white;
+    font-size: 4.5rem !important;
+    font-weight: bold ;
+}
+
+h1, h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h6 {
+    font-family: sans-serif
 }

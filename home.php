@@ -11,12 +11,14 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/599b9fd3b0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
     <title>MF Charcutaria</title>
 </head>
 
 <body>
-
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg  sticky-top">
         <div class="container-fluid">
@@ -45,7 +47,7 @@
             <!-- Left elements -->
             <!-- Center elements -->
             <div class="d-flex justify-content-center">
-                <img class="mt-0 position-absolute " src="../images/logo.PNG" alt="Logo MF Charcutaria" width="12%">
+                <img class="mt-0 position-absolute " src="./images/logo.PNG" alt="Logo MF Charcutaria" width="12%">
             </div>
             <!-- Center elements -->
             <!-- Right elements -->
@@ -78,15 +80,19 @@
     </nav>
     <div class="text-center p-2 mb-0 pb-0 align-bottom" style="background-color: #802D3D;"></div>
     <!-- Navbar -->
-    <div class="d-flex justify-content-left w-100"
-        style="background: url(../images/img-home/banner.jpeg) no-repeat center center ; background-size:cover ">
+    <div class="d-flex justify-content-left w-100 h-80"
+        style="background: url(./images/img-home/banner.jpeg) no-repeat center center ; background-size:cover ">
         <div class="float-left">
             <h3 class="text-about-us p-5 red-text float-left mt-5 ">
-                “A arte de transformar carnes em aromas e sabores.”
+                “A arte de transformar <br>
+                 carnes em aromas e 
+                 <br>sabores.”
             </h3>
             <div class="d-flex m-5 pl-5">
                 <button type="submit" class="contact-button p-2 w-50 ">Conheça nossos produtos</button>
             </div>
+            <br>
+            <br>
         </div>
 
 
@@ -99,7 +105,7 @@
                     <div class="text-center p-2 mb-0 pb-0 align-bottom "
                         style="background-color: #f3d09ccf; width:24%; height: 5%;margin-top: -1%;"></div>
                 </h3>
-                <h6 class="text-about-us p-5 red-text">
+                <h6 class=" p-5 red-text">
                     Os processos utilizados são
                     de forma artesanal
                     aproveitando o máximo a
@@ -114,11 +120,11 @@
                     sabores diferenciados a
                     preços acessíveis.
                 </h6>
-                <img src="../images/img-home/nossa-historia.jpeg" alt="Produto MF Charcutaria" width="40%"
+                <img src="./images/img-home/nossa-historia.jpeg" alt="Produto MF Charcutaria" width="40%"
                     class="rounded d-flex align-self-center float-end">
             </div>
             <div class="col-5 background-red d-flex justify-content-center">
-                <h3 class="text-about-us p-5 mt-5">
+                <h3 class="text-about-us-phrase p-5 mt-5">
                     “A charcutaria
                     tem com objetivo
                     transformar
@@ -138,28 +144,28 @@
                 style="background-color: #f3d09ccf; width:8%; height: 3%;margin-top: -1%;"></div>
         </h3>
         <div class="p-5 ">
-            <form>
+            <form method="post" action="processa.php">
                 <div class="row mb-4 align-items-center ">
                     <div class="col">
                         <div class="form-outline">
-                            <label class="form-label" for="form3Example1">Nome</label>
-                            <input type="text" id="form3Example1" class="form-control" placeholder="Nome" />
+                            <label class="form-label">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome" />
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-outline">
-                            <label class="form-label" for="form3Example3">Email</label>
-                            <input type="email" id="form3Example3" class="form-control" placeholder="E-mail" />
+                            <label class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="E-mail" />
                         </div>
                     </div>
                 </div>
                 <div class="form-outline mb-4">
-                    <label class="form-label" for="form3Example3">Telefone</label>
-                    <input type="number" id="form3Example3" class="form-control" placeholder="Telefone" />
+                    <label class="form-label">Telefone</label>
+                    <input type="number" id="telefone" name="telefone" class="form-control" placeholder="Telefone" />
                 </div>
                 <div class="form-outline mb-4">
-                    <label class="form-label" for="form3Example4">Mensagem</label>
-                    <input type="text" id="form3Example4" class="form-control" placeholder="Mensagem" />
+                    <label class="form-label">Mensagem</label>
+                    <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem" />
                 </div>
                 <!-- Submit button -->
                 <div class="d-flex justify-content-center">
@@ -177,7 +183,7 @@
                     <!-- Grid column -->
                     <div class="col-md-2 col-lg-3 col-xl-2  mb-4">
                         <!-- Content -->
-                        <img class="mt-2 position-absolute" src="../images/logo.PNG" alt="Logo MF Charcutaria"
+                        <img class="mt-2 position-absolute" src="./images/logo.PNG" alt="Logo MF Charcutaria"
                             width="10%">
                     </div>
                     <!-- Grid column -->
