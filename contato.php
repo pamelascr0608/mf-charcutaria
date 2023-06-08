@@ -18,7 +18,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img class="logo" src="./images/logo.png" width="300px"></a>
             <div class="menu_items">
-                <a href="./home.php">Home</a>
+                <a href="./index.php">Home</a>
                 <a href="./contato.php">Envie uma mensagem</a>
             </div>
         </div>

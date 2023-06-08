@@ -1,85 +1,162 @@
-body{
+/* Reset CSS */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* Define altura total para o body e html */
+}
+
+body {
     padding: 0px;
     margin: 0px;
     height: 100vh;
+    /* Define a altura do corpo para a altura total da tela */
     overflow-x: hidden;
-}
-.menu {
-    background-color: #F3D09C !important;
-    color: #802D3D;
+    /* Evita a rolagem horizontal */
 }
 
-footer{
-    background-color: #F3D09C !important;
+* {
+    box-sizing: border-box;
+    /* Assegura que padding e border são incluídos na largura e altura do elemento */
 }
 
-nav{
-    background-color: #F3D09C !important;
+/* Responsiveness rules */
+@media screen and (max-width: 768px) {
+
+    /* Ajusta o botão de contato para ocupar toda a largura em dispositivos menores */
+    .contact-button {
+        width: 100% !important;
+    }
 }
 
-li {
-    color: #802D3D !important;
-}
-.red-text{
-    color: #802D3D !important;
-}
-
-.text-about-us-phrase {
-    font-family: 'Dancing Script', cursive;
-    font-size:4rem;
-    color: #fff;
+/* Image rules */
+img {
+    max-width: 180px;
+    /* Garante que as imagens se ajustem à largura do contêiner */
+    height: auto;
+    /* Permite que a imagem mantenha sua proporção */
 }
 
-a {
-    text-decoration: none !important ;
-}
-
-i {
-    color: #802D3D !important;
-}
-
-.navbar-nav .nav-link.active {
-    color: #802D3D !important;
-}
-
-hr {
-    height: 30%;
-    color: #802D3D;
-}
-
-input {
-    border-radius: 20px !important;
-}
-
+/* Background color classes */
 .background-beige {
-    background-color:#FAF3D799 !important;
+    background-color: #FAF3D799 !important;
+    /* Define a cor de fundo como um bege claro (semi-transparente) */
+    min-height: 100%;
+    /* Define a altura mínima para a altura total da janela de visualização */
 }
 
 .background-red {
-    background-color:#802D3D !important;
+    background-color: #802D3D !important;
+    /* Define a cor de fundo como um vermelho escuro */
+    min-height: 100%;
+    /* Define a altura mínima para a altura total da janela de visualização */
 }
 
+/* Navigation styles */
+.menu,
+nav,
+footer {
+    background-color: #F3D09C !important;
+    /* Define a cor de fundo para os elementos de navegação e rodapé */
+}
 
+li,
+.red-text,
+i {
+    color: #802D3D !important;
+    /* Define a cor do texto para estes elementos */
+}
+
+/* Button styling */
 .contact-button {
     background-color: #802D3D;
+    /* Define a cor de fundo do botão */
     border-radius: 20px !important;
-    color:white;
+    /* Arredonda os cantos do botão */
+    color: white;
+    /* Define a cor do texto do botão */
     font-weight: bold;
+    /* Define o peso da fonte do botão */
     width: 20%;
-    border:none; 
+    /* Define a largura do botão */
+    border: none;
+    /* Remove a borda do botão */
     align-self: center;
+    /* Centraliza o botão */
 }
 
-.text-about-us {
-    color:white;
-    font-size: 4.5rem !important;
-    font-weight: bold ;
-}
-
-h1, h3 {
+/* Typography */
+.text-about-us-phrase {
     font-family: 'Dancing Script', cursive;
+    /* Define a família da fonte para o texto sobre nós */
+    font-size: 4rem;
+    /* Define o tamanho da fonte para o texto sobre nós */
+    color: #fff;
+    /* Define a cor do texto para o texto sobre nós */
 }
 
-h6 {
-    font-family: sans-serif
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    font: 1em 'Noto Serif', serif;
+    /* Define a família da fonte para os cabeçalhos e etiquetas */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f4d8aa;
+    text-decoration: none;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+/* Cookie banner styles */
+.cookies-banner {
+    display: none;
+    /* Oculta inicialmente a banner de cookies */
+    position: fixed;
+    /* Fixa a banner de cookies na parte inferior da tela */
+    bottom: 0;
+    /* Posiciona a banner de cookies na parte inferior da tela */
+    width: 100%;
+    /* Define a largura da banner de cookies para 100% */
+    background: #802D3D;
+    /* Define a cor de fundo da banner de cookies */
+    padding: 20px;
+    /* Define o padding para a banner de cookies */
+    text-align: center;
+    /* Centraliza o texto na banner de cookies */
+    z-index: 1000;
+    /* Garante que a banner de cookies apareça acima de outros elementos */
+    color: #fff;
+    /* Define a cor do texto na banner de cookies */
+    font-size: 1rem !important;
+    /* Define o tamanho da fonte na banner de cookies */
+    font-weight: bold;
+    /* Define o peso da fonte na banner de cookies */
+}
+
+.accept-cookies {
+    background-color: #fff;
+    /* Define a cor de fundo do botão aceitar cookies */
+    border-radius: 20px;
+    /* Arredonda os cantos do botão aceitar cookies */
+    border: none !important;
+    /* Remove a borda do botão aceitar cookies */
+    width: 15vh;
+    /* Define a largura do botão aceitar cookies */
+    font-weight: bold;
+    /* Define o peso da fonte do botão aceitar cookies */
+    color: #802d3d;
+    /* Define a cor do texto do botão aceitar cookies */
 }
