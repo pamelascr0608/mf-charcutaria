@@ -122,6 +122,7 @@
             </div>
         </div>
     </section>
+
     <?php include 'footer.php'; ?>
     <div id="cookie-banner" class="cookies-banner">
         <p>Este site usa cookies para garantir que você tenha a melhor experiência em nosso site. <button
@@ -151,7 +152,13 @@
             cookieBanner.style.display = 'none';
         }
     }
+    // Pegue o valor do parâmetro 'message' na URL
+    var urlParams = new URLSearchParams(window.location.search);
+    var message = urlParams.get('message');
+
+    // Se a mensagem existir, exiba em uma caixa de diálogo de alerta
+    if (message) {
+        alert(message);
+    }
 </script>
-
-
 </html>
